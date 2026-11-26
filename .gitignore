@@ -1,0 +1,46 @@
+# ---- 通用 ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.DS_Store
+Thumbs.db
+*.bak
+.dsh-*.jsonl
+
+# ---- windesktop 产物 ----
+windesktop/dist/
+windesktop/build/work/
+windesktop/build/tmp/
+windesktop/build/install-test/
+windesktop/tests/_out/
+windesktop/*.spec.bak
+windesktop/minitools-selftest*.log
+windesktop/minitools-selftest*.png
+windesktop/selftest*.log
+windesktop/selftest*.png
+windesktop/wintools-selftest*
+
+# ---- android 产物 ----
+android/.gradle/
+android/.kotlin/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+android/captures/
+android/*.iml
+android/*.apk
+android/*.aab
+android/*.jks
+android/*.keystore
+
+# ---- release 签名（仅本机，勿提交）----
+android/keystore.properties
+android/minitools-release.jks
+android/dist/
+
+# ---- 编辑器 ----
+.vscode/
+.idea/
+*.swp
